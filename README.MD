@@ -8,7 +8,7 @@ Walkthrough Certification dlthub
     <summary><strong>PROBLEMA</strong></summary>
     <p></p>
 
-<div style="margin-left: 20px;">
+<ul style="list-style-type: none;">
 
 #### **Extrair dados de 5 endpoints da API do Github e carregá-los no BigQuery:**
 
@@ -26,7 +26,7 @@ ___
 
 <br>
 
-</div>
+</ul>
 
 </details>
 
@@ -39,8 +39,9 @@ ___
 
 <br>
 
-<div style="margin-left: 20px;">
+<ul style="list-style-type: none;">
 
+<li>
 <details>
 <summary><strong>Configurar Github</strong></summary>
 
@@ -52,9 +53,10 @@ git branch -m main
 ```
 
 </details>
+</li>
 
-<br>
 
+<li>
 <details>
 <summary><strong>Definir versão Python do projeto:</strong></summary>
 
@@ -67,8 +69,10 @@ pyenv versions
 ```
 
 </details>
+</li>
 
-<br>
+
+<li>
 
 <details open>
 <summary><strong>Criar Ambiente Virual - Poetry:</strong></summary>
@@ -95,7 +99,10 @@ pyenv versions
 
 </details>
 
-<br>
+</li>
+
+
+<li>
 
 <details>
 <summary><strong>Instalar Library dlt</strong></summary>
@@ -106,7 +113,10 @@ poetry add dlt --python "^3.12"
 
 </details>
 
-</div>
+</li>
+
+
+</ul>
 
 <br>
 
