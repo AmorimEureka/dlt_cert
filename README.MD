@@ -39,84 +39,70 @@ ___
 
 <br>
 
-<ul style="list-style-type: none;">
+&nbsp;&nbsp;&nbsp;&nbsp;<details>
+&nbsp;&nbsp;&nbsp;&nbsp;<summary><strong>Configurar Github</strong></summary>
 
-<li style="list-style-type: none;">
-<details>
-<summary><strong>Configurar Github</strong></summary>
+&nbsp;&nbsp;&nbsp;&nbsp;```bash
+&nbsp;&nbsp;&nbsp;&nbsp;git init
 
-```bash
-git init
+&nbsp;&nbsp;&nbsp;&nbsp;git branch -m main
 
-git branch -m main
+&nbsp;&nbsp;&nbsp;&nbsp;```
 
-```
+&nbsp;&nbsp;&nbsp;&nbsp;</details>
 
-</details>
-</li>
+<br>
 
+&nbsp;&nbsp;&nbsp;&nbsp;<details>
+&nbsp;&nbsp;&nbsp;&nbsp;<summary><strong>Definir versão Python do projeto:</strong></summary>
 
-<li style="list-style-type: none;">
-<details>
-<summary><strong>Definir versão Python do projeto:</strong></summary>
+&nbsp;&nbsp;&nbsp;&nbsp;```bash
+&nbsp;&nbsp;&nbsp;&nbsp;pyenv version
 
-```bash
-pyenv version
+&nbsp;&nbsp;&nbsp;&nbsp;pyenv local 3.12.1
 
-pyenv local 3.12.1
+&nbsp;&nbsp;&nbsp;&nbsp;pyenv versions
+&nbsp;&nbsp;&nbsp;&nbsp;```
 
-pyenv versions
-```
+&nbsp;&nbsp;&nbsp;&nbsp;</details>
 
-</details>
-</li>
+<br>
 
+&nbsp;&nbsp;&nbsp;&nbsp;<details open>
+&nbsp;&nbsp;&nbsp;&nbsp;<summary><strong>Criar Ambiente Virual - Poetry:</strong></summary>
 
-<li style="list-style-type: none;">
+&nbsp;&nbsp;&nbsp;&nbsp;```bash
+&nbsp;&nbsp;&nbsp;&nbsp;# -- Se criou projeto com mkdir
+&nbsp;&nbsp;&nbsp;&nbsp;    poetry init
 
-<details open>
-<summary><strong>Criar Ambiente Virual - Poetry:</strong></summary>
+&nbsp;&nbsp;&nbsp;&nbsp;# ou
 
-```bash
-# -- Se criou projeto com mkdir
-    poetry init
+&nbsp;&nbsp;&nbsp;&nbsp;# -- repo do zero
+&nbsp;&nbsp;&nbsp;&nbsp;    poetry new <Nome_Novo_Porjeto>
 
-# ou
-
-# -- repo do zero
-    poetry new <Nome_Novo_Porjeto>
-
-# -- habilita gerenciamento do projeto p/ poetry
-    poetry config virtualenvs.in-project true
+&nbsp;&nbsp;&nbsp;&nbsp;# -- habilita gerenciamento do projeto p/ poetry
+&nbsp;&nbsp;&nbsp;&nbsp;    poetry config virtualenvs.in-project true
 
 
-# -- Informa versão python definida pelo Pyenv
-    poetry env use 3.12.1
+&nbsp;&nbsp;&nbsp;&nbsp;# -- Informa versão python definida pelo Pyenv
+&nbsp;&nbsp;&nbsp;&nbsp;    poetry env use 3.12.1
 
-# -- Ativa o ambiente virtual
-    source .venv/bin/activate
-```
+&nbsp;&nbsp;&nbsp;&nbsp;# -- Ativa o ambiente virtual
+&nbsp;&nbsp;&nbsp;&nbsp;    source .venv/bin/activate
+&nbsp;&nbsp;&nbsp;&nbsp;```
 
-</details>
+&nbsp;&nbsp;&nbsp;&nbsp;</details>
 
-</li>
+<br>
 
+&nbsp;&nbsp;&nbsp;&nbsp;<details>
+&nbsp;&nbsp;&nbsp;&nbsp;<summary><strong>Instalar Library dlt</strong></summary>
 
-<li style="list-style-list: none;">
+&nbsp;&nbsp;&nbsp;&nbsp;```bash
+&nbsp;&nbsp;&nbsp;&nbsp;poetry add dlt --python "^3.12"
+&nbsp;&nbsp;&nbsp;&nbsp;```
 
-<details>
-<summary><strong>Instalar Library dlt</strong></summary>
-
-```bash
-poetry add dlt --python "^3.12"
-```
-
-</details>
-
-</li>
-
-
-</ul>
+&nbsp;&nbsp;&nbsp;&nbsp;</details>
 
 <br>
 
