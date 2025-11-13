@@ -41,7 +41,7 @@ ___
 
 <ul style="list-style-type: none;">
 
-<li>
+<li style="list-style-type: none;">
 <details>
 <summary><strong>Configurar Github</strong></summary>
 
@@ -56,7 +56,7 @@ git branch -m main
 </li>
 
 
-<li>
+<li style="list-style-type: none;">
 <details>
 <summary><strong>Definir versão Python do projeto:</strong></summary>
 
@@ -72,7 +72,7 @@ pyenv versions
 </li>
 
 
-<li>
+<li style="list-style-type: none;">
 
 <details open>
 <summary><strong>Criar Ambiente Virual - Poetry:</strong></summary>
@@ -102,7 +102,7 @@ pyenv versions
 </li>
 
 
-<li>
+<li style="list-style-list: none;">
 
 <details>
 <summary><strong>Instalar Library dlt</strong></summary>
